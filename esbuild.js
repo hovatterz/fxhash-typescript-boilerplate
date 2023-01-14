@@ -7,7 +7,7 @@ esbuild.build({
   bundle: true,
   minify: true,
   sourcemap: false,
-  watch: false,
+  watch: process.env.WATCH !== undefined,
   plugins: [
     copyStaticFiles({
       src: "static",
