@@ -8,3 +8,10 @@ To create a zip file for upload:
 yarnpkg build
 yarnpkg zip
 ```
+
+Viewing locally:
+
+```
+brew install serve
+serve -port=5000 -dir=dist
+```
