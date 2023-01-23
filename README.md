@@ -11,7 +11,9 @@ yarnpkg zip
 
 Viewing locally:
 
+Install serve:
 ```
 brew install serve
-serve -port=5000 -dir=dist
 ```
+
+In one session run `yarnpkg watch` and in another run `serve -port=5000 -dir=dist`.
